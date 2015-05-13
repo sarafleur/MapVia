@@ -60,6 +60,8 @@ public class MapsActivity extends FragmentActivity implements GoogleMap.OnMapCli
 
     @Override
     public void onMapClick(LatLng point) {
+        mMap.clear();
+        setUpMapIfNeeded();
         //Add a marker where the user has clicked
         mMap.addMarker(new MarkerOptions().position(point));
         //Get coordinates of the marker and call Google Maps Direction API to get duration and distance from current Location
