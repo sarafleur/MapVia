@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MapVia5</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="button">Button</string>
+    <string name="button1">+1</string>
+    <string name="button2">-1</string>
+    <string name="distance">Distance</string>
+    <string name="duration">Duration</string>
+
+</resources>
